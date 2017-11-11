@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Super Smash Hangman</title>
+
+    <!-- Bootstrap core CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- I'm using Bootswatch here -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+ </head>
+<body>
+
+<!-- Header with Super Smash Logo!-->
+    <header>
+    	<div class="contianer">
+    	<div id="banner">
+    		<img src="assets/images/topbanner.png" alt="Super Smash Hangman" class="resize" id="topbanner">
+    	</div>
+    </div>
+    </header>
+
+
+  <div class="container">
+  <div class="wrap">
+    <h1 class="title">Super Smash Hangman!</h1>
+    <h2 class="category"> - PRESS ANY KEYBOARD LETTER TO BEGIN - </h2>
+<!--     Word to be guessed -->
+    <h2 class="explain">Which character is this???</h2>
+    <p id="displayWord"></p>
+<!--     Displays the guessed words for reference -->
+    <h2 class="explain">Letters you have tried:</h2>
+    <p id="guessedLetter"></p>
+<!--     Number of Lives left -->
+    <h2 class="lives"> Guesses Left: <span id="guesses"></span></h2>
+<!--     New Game Instructions -->
+    <h1 id="newGame"></h1>
+  </div>
+  </div>
+</body>

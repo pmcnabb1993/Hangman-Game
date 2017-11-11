@@ -1,0 +1,74 @@
+/* Super Smash Banner*/
+#banner {
+  text-align: center;
+  
+    top: 0;
+    width: 100%;
+    height: 135px;
+    color: #000;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.75);
+    border: solid 5px #000;
+    text-align: center;
+    z-index: 90;
+    margin-bottom: 20px;
+
+}
+body, html {
+  height: 100%;
+  
+}
+
+/*.resize */ {
+    width: 400px;
+    height: auto;
+}
+
+/*.resize */{
+    width: 300px;
+    height: auto;
+}
+  
+
+.title {
+
+  font-size: 85px;
+  font-family: "Times New Roman", Times, serif; 
+  font-weight: bold
+  
+
+  
+
+}
+
+.category {
+  font-family: Times, serif;
+  font-size: 30px;
+}
+
+.explain {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.wrap {
+  margin: 5% auto;
+  padding: 0;
+  display: block;
+  text-align: center;  
+  position: relative;
+}
+
+
+#displayWord {
+  font-size: 50px;
+  letter-spacing: 30px;
+  color: yellow;
+  font-weight: bold
+  
+}
+#guessedLetter {
+  font-size: 30px
+  letter-spacing: 20px;
+  
+  
+}
